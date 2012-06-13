@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2df4d112-287e-4faa-b648-f2f96d782c68" name="Pedro@PEDRO-PC 2012-06-10 21:15:57" runUser="Pedro-PC\Pedro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="844e47e7-8328-45e7-8c07-d81531a54d87">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pedro_PEDRO-PC 2012-06-10 21_15_57">
+      <DeploymentItem filename="c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\bin\ES1TDD.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-10T21:15:57.1352250-03:00" queuing="2012-06-10T21:15:57.1662268-03:00" start="2012-06-10T21:15:57.2342306-03:00" finish="2012-06-10T21:15:57.7902624-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsValidoTestTrue" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a">
+      <Execution id="7d4aa3a6-da3a-4749-9875-f04f9be1eef0" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidoTestTrue" />
+    </UnitTest>
+    <UnitTest name="IsValidoTestFalse" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9">
+      <Execution id="d9967570-f6fb-451c-a369-c72150093e0f" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidoTestFalse" />
+    </UnitTest>
+    <UnitTest name="getPotzTest" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="045226f6-1e61-163a-228e-49c72a9bf52d">
+      <Execution id="8a17f5d7-0420-4ce8-80bb-6bd583d25aa3" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPotzTest" />
+    </UnitTest>
+    <UnitTest name="getPotzTest2" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="2be49f09-49af-c057-f47b-cad0bb05efc0">
+      <Execution id="e3afdcfb-7da9-4935-8e9c-04fd1cfc70c5" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPotzTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="045226f6-1e61-163a-228e-49c72a9bf52d" executionId="8a17f5d7-0420-4ce8-80bb-6bd583d25aa3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2be49f09-49af-c057-f47b-cad0bb05efc0" executionId="e3afdcfb-7da9-4935-8e9c-04fd1cfc70c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9" executionId="d9967570-f6fb-451c-a369-c72150093e0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a" executionId="7d4aa3a6-da3a-4749-9875-f04f9be1eef0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8a17f5d7-0420-4ce8-80bb-6bd583d25aa3" testId="045226f6-1e61-163a-228e-49c72a9bf52d" testName="getPotzTest" computerName="PEDRO-PC" duration="00:00:00.0138033" startTime="2012-06-10T21:15:57.2382309-03:00" endTime="2012-06-10T21:15:57.4472428-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a17f5d7-0420-4ce8-80bb-6bd583d25aa3">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3afdcfb-7da9-4935-8e9c-04fd1cfc70c5" testId="2be49f09-49af-c057-f47b-cad0bb05efc0" testName="getPotzTest2" computerName="PEDRO-PC" duration="00:00:00.0229427" startTime="2012-06-10T21:15:57.4512431-03:00" endTime="2012-06-10T21:15:57.4782446-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3afdcfb-7da9-4935-8e9c-04fd1cfc70c5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;500&gt;. Actual:&lt;400&gt;. </Message>
+          <StackTrace>   em TestTDD.CupomTest.getPotzTest2() na c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\TestTDD\CupomTest.cs:linha 81
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d9967570-f6fb-451c-a369-c72150093e0f" testId="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9" testName="IsValidoTestFalse" computerName="PEDRO-PC" duration="00:00:00.0004203" startTime="2012-06-10T21:15:57.4792447-03:00" endTime="2012-06-10T21:15:57.4822448-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9967570-f6fb-451c-a369-c72150093e0f">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d4aa3a6-da3a-4749-9875-f04f9be1eef0" testId="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a" testName="IsValidoTestTrue" computerName="PEDRO-PC" duration="00:00:00.0001990" startTime="2012-06-10T21:15:57.4832449-03:00" endTime="2012-06-10T21:15:57.4862451-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d4aa3a6-da3a-4749-9875-f04f9be1eef0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

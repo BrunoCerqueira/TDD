@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3ecbf0fe-2fed-4979-90ab-5b03875f9b15" name="Pedro@PEDRO-PC 2012-06-10 20:49:43" runUser="Pedro-PC\Pedro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="844e47e7-8328-45e7-8c07-d81531a54d87">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pedro_PEDRO-PC 2012-06-10 20_49_43">
+      <DeploymentItem filename="c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\bin\ES1TDD.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-10T20:49:43.4922178-03:00" queuing="2012-06-10T20:49:43.5312200-03:00" start="2012-06-10T20:49:43.5672220-03:00" finish="2012-06-10T20:49:44.0842516-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsValidoTestTrue" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a">
+      <Execution id="6a9a47c6-dc1c-4031-9be7-f61ed628a7bc" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidoTestTrue" />
+    </UnitTest>
+    <UnitTest name="IsValidoTestFalse" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9">
+      <Execution id="bccb165a-572d-4de4-b4bd-10a54f2a04b1" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidoTestFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9" executionId="bccb165a-572d-4de4-b4bd-10a54f2a04b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a" executionId="6a9a47c6-dc1c-4031-9be7-f61ed628a7bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bccb165a-572d-4de4-b4bd-10a54f2a04b1" testId="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9" testName="IsValidoTestFalse" computerName="PEDRO-PC" duration="00:00:00.0134976" startTime="2012-06-10T20:49:43.5712223-03:00" endTime="2012-06-10T20:49:43.7862346-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bccb165a-572d-4de4-b4bd-10a54f2a04b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a9a47c6-dc1c-4031-9be7-f61ed628a7bc" testId="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a" testName="IsValidoTestTrue" computerName="PEDRO-PC" duration="00:00:00.0001905" startTime="2012-06-10T20:49:43.7882347-03:00" endTime="2012-06-10T20:49:43.7912349-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a9a47c6-dc1c-4031-9be7-f61ed628a7bc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

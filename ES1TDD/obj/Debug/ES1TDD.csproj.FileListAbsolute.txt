@@ -1,0 +1,5 @@
+c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\bin\ES1TDD.dll
+c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\bin\ES1TDD.pdb
+c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\obj\Debug\ResolveAssemblyReference.cache
+c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\obj\Debug\ES1TDD.dll
+c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\obj\Debug\ES1TDD.pdb

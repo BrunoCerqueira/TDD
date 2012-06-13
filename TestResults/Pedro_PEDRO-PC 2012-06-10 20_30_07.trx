@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a486810c-1ca5-42ba-a3eb-9bbe73bf06d9" name="Pedro@PEDRO-PC 2012-06-10 20:30:07" runUser="Pedro-PC\Pedro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="844e47e7-8328-45e7-8c07-d81531a54d87">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pedro_PEDRO-PC 2012-06-10 20_30_07">
+      <DeploymentItem filename="c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\ES1TDD\bin\ES1TDD.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-10T20:30:07.2299394-03:00" queuing="2012-06-10T20:30:07.2629413-03:00" start="2012-06-10T20:30:07.2899428-03:00" finish="2012-06-10T20:30:07.6009606-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsValidoTestTrue" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a">
+      <Execution id="af450a26-7f54-4f64-89b1-813be8fe643a" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidoTestTrue" />
+    </UnitTest>
+    <UnitTest name="IsValidoTestFalse" storage="c:\users\pedro\documents\visual studio 2010\projects\es1tdd\testtdd\bin\debug\testtdd.dll" id="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9">
+      <Execution id="067f000e-7ad3-40c7-8fa4-030a3f1802d0" />
+      <TestMethod codeBase="c:/users/pedro/documents/visual studio 2010/Projects/ES1TDD/TestTDD/bin/Debug/TestTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTDD.CupomTest, TestTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidoTestFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9" executionId="067f000e-7ad3-40c7-8fa4-030a3f1802d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a" executionId="af450a26-7f54-4f64-89b1-813be8fe643a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="067f000e-7ad3-40c7-8fa4-030a3f1802d0" testId="aba7c4a4-1e96-9fe0-7c16-fcb266ebb7f9" testName="IsValidoTestFalse" computerName="PEDRO-PC" duration="00:00:00.0662371" startTime="2012-06-10T20:30:07.2989433-03:00" endTime="2012-06-10T20:30:07.5829596-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="067f000e-7ad3-40c7-8fa4-030a3f1802d0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsFalse failed. </Message>
+          <StackTrace>   em TestTDD.CupomTest.IsValidoTestFalse() na c:\users\pedro\documents\visual studio 2010\Projects\ES1TDD\TestTDD\CupomTest.cs:linha 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af450a26-7f54-4f64-89b1-813be8fe643a" testId="ac84d717-6b39-8aec-5ab1-6e7c1ed03c5a" testName="IsValidoTestTrue" computerName="PEDRO-PC" duration="00:00:00.0001936" startTime="2012-06-10T20:30:07.5839596-03:00" endTime="2012-06-10T20:30:07.5879599-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af450a26-7f54-4f64-89b1-813be8fe643a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
